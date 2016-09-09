@@ -21,7 +21,7 @@ const ripple = popper({
   // so we include these as globals
   , globals: `
       <script src="socket.io/socket.io.js"></script>
-      <script src="https://npmcdn.com/socket.io-stream/socket.io-stream.js"></script>
+      <script src="https://unpkg.com/socket.io-stream/socket.io-stream.js"></script>
     `
   })
       
